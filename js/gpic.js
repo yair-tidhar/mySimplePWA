@@ -2,12 +2,11 @@
 var path = "imgs/meow.jpg";
 
 function whenAvailable(name, callback, max_rep) {
-    if (max_rep==0) return false;
+    if (max_rep==0) return;
     var interval = 50; // ms
     window.setTimeout(function() {
         if (window[name]) {
             callback(window[name]);
-	    return true;
         } else {
             return whenAvailable(name, callback, max_rep-1);
         }
@@ -15,16 +14,13 @@ function whenAvailable(name, callback, max_rep) {
 }
 
 function init(){
-	if ( !whenAvailable('loaded', function(){}, 20) ){
-		return;
-	}
 	document.getElementById("initbut").remove();
 	loaded();
 	set_back(path);
 }
 
 if(document.readyState == 'complete'){
-	init();
+	whenAvailable('loaded', init, 20);
 }else{
-	window.onload = init
+	window.onload = init;
 }
