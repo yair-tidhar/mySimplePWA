@@ -1,0 +1,9 @@
+{
+	"name": "ExamplePWA",
+	"short_name":"ExamplePWA",
+	"description": "just a quick PWA test",
+	"display": "fullscreen",
+	"start_url": ".",
+	"url": "index.html",
+	"scope": "."
+}
