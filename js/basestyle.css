@@ -12,7 +12,7 @@
     transition: 0.5s;
 }
 
-.card.selected{
+.card.selected, .card:hover{
     transform: translate(0, -20%);
 }
 
