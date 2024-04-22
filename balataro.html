@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>My Title</title>
+	<meta name='viewport' content="width=device-width, height=device-height, initial-scale=1"/>
+	<script src="js/DragDropTouch.js"></script>
+	<link rel="stylesheet" href="js/basestyle.css">
+	<link rel="stylesheet" href="js/animations.css">
+	<style>
+		body{
+			display: block;
+			text-align: center;
+			font-size: 40px;
+		}
+
+		#JockerHand{
+			background-color: blue;
+		}
+
+
+
+	</style>
+</head>
+
+<body>
+    <div id="JockerHand" class="hand">
+        <img class="card" src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png/revision/latest?cb=20230925003651">
+		<img class="card" src="imgs/cards/queen_of_diamonds.svg">
+		<img class="card" src="imgs/cards/queen_of_diamonds.svg">
+		<img class="card" src="imgs/cards/queen_of_diamonds.svg">
+	</div>
+
+	<div id="field" class="hand">
+
+	</div>
+
+	<div id="player" class="hand">
+		<img class="card" src="imgs/cards/ace_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/2_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/3_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/4_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/5_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/6_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/7_of_hearts.svg"/>
+		<img class="card" src="imgs/cards/8_of_hearts.svg"/>
+	</div>
+
+	<button onclick="playHand()">Play Hand </button>
+
+	<script src="htmlScript.js"></script>
+	<script src="AnotherScript.js"></script>
+</body>
+
+</html>

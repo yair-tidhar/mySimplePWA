@@ -1,0 +1,13 @@
+.animateMove{
+        animation: moveAnimation 1s ease-out;
+}
+
+
+@keyframes moveAnimation{
+    0%{
+        transform: translateX(var(--dx)) translateY(calc(-25% + var(--dy))) scale(var(--dw),var(--dh));
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1,1);
+    }
+}
