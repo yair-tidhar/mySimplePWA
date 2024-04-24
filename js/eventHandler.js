@@ -11,6 +11,7 @@ document.body.addEventListener("click", function(evt){
 
 //hover over cards:
 const touchedClass = "touched";
+const __TIME_REQUIRED = 1000;
 var touched_card = null;
 var press_timer = null;
 function cancel_touch(){
@@ -29,7 +30,7 @@ document.body.addEventListener("touchstart", function(evt){
     press_timer = setTimeout(function(){
         card.classList.add(touchedClass);
         touched_card = card;
-    }, 300);
+    }, __TIME_REQUIRED);
 });
 document.body.addEventListener("touchend", function(evt){
     clearTimeout(press_timer);
