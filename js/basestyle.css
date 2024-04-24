@@ -1,5 +1,6 @@
 
-.card{
+/* card positioning*/
+.card, .card img{
     position: relative;
     height: 100%;
     width: auto;
@@ -12,8 +13,9 @@
     transition: 0.5s;
 }
 
-.card.selected, .card:hover{
+.card.selected{
     transform: translate(0, -20%);
+
 }
 
 .hand{
@@ -21,8 +23,42 @@
     grid-auto-flow: column;
     justify-items: center;
     align-items: center;
-    border: 6px solid black;
+    border: 2px solid black;
     height: 20%;
     width: 80%;
     margin: 5% 5%;
 }
+
+/* img filter effects for cards*/
+/* has .invert and .cross*/
+.card{
+    img{
+        --invert: 0%;
+        --grayscale: 0%;
+        --brightness: 1;
+    }
+    &.invert img{
+        --invert: 100%;
+    }
+    &.cross img{
+        --grayscale: 100%;
+        --brightness: 0.7;
+    }
+    &.cross:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "\274c";
+        font-size: 100%;
+        color: red;
+            text-align: center;
+    }
+    img{
+        filter: invert(var(--invert)) grayscale(var(--grayscale)) brightness(var(--brightness));
+    }
+}
+
+
+

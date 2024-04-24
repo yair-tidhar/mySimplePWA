@@ -1,9 +1,10 @@
 
 document.body.addEventListener("click", function(evt){
-    let elm = event.target;
-    if(elm.classList.contains("card")){
-        elm.classList.toggle("selected");
+    const elm = event.target.closest(".card");
+    if(!elm){
+        return;
     }
+    elm.classList.toggle("selected");
 });
 
 function setUpDragAndDrop(){
@@ -11,15 +12,17 @@ function setUpDragAndDrop(){
         ev.preventDefault();
     }
     function drag(ev) {
-        ev.dataTransfer.setData("text", ev.target.id);
+        const card = ev.target.closest(".card");
+        ev.dataTransfer.setData("text", card.id);
     }
     function drop(ev) {
         ev.preventDefault();
         let moved = document.getElementById( ev.dataTransfer.getData("text") );
-        if(ev.target.classList.contains("card")){
-            let hand = ev.target.parentElement;
+        const targetCard = ev.target.closest(".card");
+        if(targetCard){
+            let hand = targetCard.parentElement;
             if (!hand.contains(moved)) return;
-            hand.insertBefore(moved, ev.target);
+            hand.insertBefore(moved, targetCard);
             return;
         }
         if(!ev.target.classList.contains("hand")) return;

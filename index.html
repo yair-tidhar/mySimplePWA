@@ -2,52 +2,112 @@
 <head>
     <title>My Title</title>
 	<meta name='viewport' content="width=device-width, height=device-height, initial-scale=1"/>
-	<script src="js/DragDropTouch.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	<script src="js/DragDropTouch_lib.js"></script>
+	<script src="js/animationScript.js"></script>
 	<link rel="stylesheet" href="js/basestyle.css">
 	<link rel="stylesheet" href="js/animations.css">
-	<style>
+</head>
+<style>
 		body{
 			display: block;
+			font-size: 400%;
 			text-align: center;
-			font-size: 40px;
+		}
+		button{
+			font-size: 100%;
+			margin: 0px 20px;
 		}
 
-		#JockerHand{
-			background-color: blue;
+
+		#TarrotHand{
+			margin-left: auto;
+			margin-right: 10px;
+			margin-bottom: 50px;
+			width: 50%;
 		}
 
+		.card p{
+			color: blue;
+			font-weight: bold;
+			position: absolute;
+			bottom: auto;
+			bottom: 70%;
+			height: 50px;
+			width: 100%;
+			z-index: 1;
+			transition: all 1s ease-out;
+		}
+		#JockerHand .card p{
+			top: auto;
+			bottom:-75%;
+		}
 
+		.numinfo{
+			font-weight: bold;
+			padding: 1% 1%;
+			border-radius: 10px;
+		}
 
 	</style>
-</head>
 
 <body>
+
+	<div id="TarrotHand" class="hand">
+		<div class="card invert">
+			<p>x2</p>
+        	<img src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png/revision/latest?cb=20230925003651">
+		</div>
+	</div>
+
     <div id="JockerHand" class="hand">
-        <img class="card" src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png/revision/latest/scale-to-width-down/80?cb=20230925003651">
-		<img class="card" src="imgs/cards/queen_of_diamonds.svg">
-		<img class="card" src="imgs/cards/queen_of_diamonds.svg">
-		<img class="card" src="imgs/cards/queen_of_diamonds.svg">
+		<div class="card invert">
+			<p>x2</p>
+        	<img src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png/revision/latest?cb=20230925003651">
+		</div>
+		<div class="card cross">
+			<img src="imgs/cards/queen_of_diamonds.svg">
+		</div>
+		<div class="card cross invert">
+			<img src="imgs/cards/queen_of_diamonds.svg">
+		</div>
+		<div class="card">
+			<img src="imgs/cards/queen_of_diamonds.svg">
+		</div>
 	</div>
 
 	<div id="field" class="hand">
-
+		<div id="handInfo">
+			Selected Hand Type:<br>
+			<span> Flush Five of a Kind</span>
+			<br>
+			<span class="numinfo" style="background-color: red">20</span>
+			x
+			<span class="numinfo" style="background-color: blue">120</span>
+		</div>
 	</div>
+
+
 
 	<div id="player" class="hand">
-		<img class="card" src="imgs/cards/ace_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/2_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/3_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/4_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/5_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/6_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/7_of_hearts.svg"/>
-		<img class="card" src="imgs/cards/8_of_hearts.svg"/>
+		<div class="card">
+			<p>+4</p>
+			<img src="imgs/cards/ace_of_hearts.svg"/>
+		</div>
+		<div class="card"> <img src="imgs/cards/2_of_hearts.svg"/> </div>
+		<div class="card"> <img src="imgs/cards/3_of_hearts.svg"/> </div>
+		<div class="card"> <img src="imgs/cards/4_of_hearts.svg"/> </div>
+		<div class="card"> <img src="imgs/cards/5_of_hearts.svg"/> </div>
+		<div class="card"> <img src="imgs/cards/6_of_hearts.svg"/> </div>
+		<div class="card"> <img src="imgs/cards/7_of_hearts.svg"/> </div>
+		<div class="card"> <img src="imgs/cards/8_of_hearts.svg"/> </div>
 	</div>
+	<button onclick="playHand()">Play Hand (<span>5</span>) </button>
+	<button>Discard (<span>5</span>)</button>
 
-	<button onclick="playHand()">Play Hand </button>
+
 
 	<script src="htmlScript.js"></script>
-	<script src="AnotherScript.js"></script>
 </body>
 
 </html>
