@@ -11,42 +11,47 @@
 <style>
 		body{
 			display: block;
-			font-size: 400%;
+			font-size: 150%;
 			text-align: center;
 		}
 		button{
 			font-size: 100%;
-			margin: 0px 20px;
 		}
 
+		.hand:has(.card){
+			#handInfo{
+				display: none;
+			}
+		}
 
 		#TarrotHand{
 			margin-left: auto;
 			margin-right: 10px;
-			margin-bottom: 50px;
 			width: 50%;
 		}
 
 		.card p{
 			color: blue;
+			font-size: 150%;
 			font-weight: bold;
 			position: absolute;
 			bottom: auto;
-			bottom: 70%;
+			bottom: 45%;
 			height: 50px;
 			width: 100%;
 			z-index: 1;
 			transition: all 1s ease-out;
 		}
-		#JockerHand .card p{
+		#JockerHand .card p, #TarrotHand .card p{
 			top: auto;
-			bottom:-75%;
+			bottom:-70%;
 		}
 
 		.numinfo{
 			font-weight: bold;
 			padding: 1% 1%;
 			border-radius: 10px;
+			z-index: 1;
 		}
 
 	</style>
@@ -102,9 +107,8 @@
 		<div class="card"> <img src="imgs/cards/7_of_hearts.svg"/> </div>
 		<div class="card"> <img src="imgs/cards/8_of_hearts.svg"/> </div>
 	</div>
-	<button onclick="playHand()">Play Hand (<span>5</span>) </button>
+	<button onclick="playHand()">Play(<span>5</span>) </button>
 	<button>Discard (<span>5</span>)</button>
-
 
 
 	<script src="htmlScript.js"></script>
