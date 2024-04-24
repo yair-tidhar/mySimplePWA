@@ -1,12 +1,42 @@
 
+//Select cards
 document.body.addEventListener("click", function(evt){
     const elm = event.target.closest(".card");
     if(!elm){
         return;
     }
+    console.log(evt);
     elm.classList.toggle("selected");
 });
 
+//hover over cards:
+const touchedClass = "touched";
+var touched_card = null;
+var press_timer = null;
+function cancel_touch(){
+    clearTimeout(press_timer);
+    press_timer = null;
+    if(!touched_card) return;
+    touched_card.classList.remove(touchedClass);
+    touched_card = null;
+}
+document.body.addEventListener("touchleave", cancel_touch);
+document.body.addEventListener("touchcancel", cancel_touch);
+document.body.addEventListener("touchstart", function(evt){
+    cancel_touch();
+    const card = evt.target.closest(".card");
+    if(!card) return;
+    press_timer = setTimeout(function(){
+        card.classList.add(touchedClass);
+        touched_card = card;
+    }, 300);
+});
+document.body.addEventListener("touchend", function(evt){
+    clearTimeout(press_timer);
+    press_timer = null;
+});
+
+//handle drag and drop
 function setUpDragAndDrop(){
     function allowDrop(ev) {
         ev.preventDefault();
