@@ -14,11 +14,9 @@
 			font-size: 150%;
 			text-align: center;
 		}
-		button{
-			font-size: 100%;
-		}
 
-		.hand:has(.card){
+
+		#field:has(.card){
 			#handInfo{
 				display: none;
 			}
@@ -47,18 +45,61 @@
 			bottom:-70%;
 		}
 
-		.numinfo{
-			font-weight: bold;
-			padding: 1% 1%;
-			border-radius: 10px;
-			z-index: 1;
+		#curr_play{
+			position: relative;
+			height: 5%;
+			margin: 0;
+			padding: 0;
+			> div{
+				display: flex;
+				justify-content: space-around;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+				> *{
+					position:relative;
+					margin: 0;
+					padding: auto;
+					height: 100%;
+				}
+				> span{
+					width: 40%;
+				}
+			}
+
+		}
+		button{
+			font-size: 100%;
+		}
+		#score_calc{
+			visibility: hidden;
+		}
+		#curr_play.scoring{
+			#score_calc{
+				visibility: visible;
+			}
+			#playbuttons{
+				visibility: hidden;
+			}
 		}
 	</style>
 
 <body>
 
+	<div style="text-align:left; font-weight:bold;">
+		Goal: <span class="numinfo">1,234,567</span>
+		<br>
+		Score: <span class="numinfo">1,234,567</span>
+	</div>
+
+
 	<div id="TarrotHand" class="hand">
 		<div class="card invert">
+			<p>x2</p>
+        	<img src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png">
+		</div>
+		<div class="card">
 			<p>x2</p>
         	<img src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png">
 		</div>
@@ -93,7 +134,6 @@
 	</div>
 
 
-
 	<div id="player" class="hand">
 		<div class="card">
 			<p>+4</p>
@@ -107,9 +147,24 @@
 		<div class="card"> <img src="imgs/cards/7_of_hearts.svg"/> </div>
 		<div class="card"> <img src="imgs/cards/8_of_hearts.svg"/> </div>
 	</div>
-	<button onclick="playHand()">Play(<span>5</span>) </button>
-	<button>Discard (<span>5</span>)</button>
 
+	<div id="curr_play">
+		<div id="score_calc">
+			<span class="numinfo" style="background-color: blue">00</span>
+			x
+			<span class="numinfo" style="background-color:red">00</span>
+		</div>
+		<div id="playbuttons">
+			<button onclick="playHand()">Play(<span>5</span>) </button>
+			<button>Discard (<span>5</span>)</button>
+		</div>
+	</div>
+
+	<div style="margin-top: 5%; margin-left:5%; margin-right:auto; display: flex;">
+		<span class="numinfo" style="background-color: gold; color:black;">
+			<span id="money">105</span>$
+		</span>
+	</div>
 
 	<script src="js/eventHandler.js"></script>
 </body>

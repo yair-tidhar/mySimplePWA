@@ -5,7 +5,6 @@ document.body.addEventListener("click", function(evt){
     if(!elm){
         return;
     }
-    console.log(evt);
     elm.classList.toggle("selected");
 });
 

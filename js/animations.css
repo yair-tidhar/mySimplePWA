@@ -1,6 +1,4 @@
 
-
-
 .animateMove{
     animation: moveAnimation 1s ease-out;
 }
@@ -16,3 +14,22 @@
     }
 }
 
+.animateTrigger{
+    animation: triggerAnimation 0.2s ease-out alternate 2;
+}
+
+@keyframes triggerAnimation{
+    0%{
+        transform: translateX(0);
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    33%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: translateY(-20%) rotate(10deg);
+    }
+}

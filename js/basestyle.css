@@ -1,4 +1,14 @@
 
+/* numbers with background*/
+.numinfo{
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    padding: 1% 1%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
 /* card positioning*/
 .card, .card img{
     position: relative;
@@ -26,7 +36,7 @@
     border: 2px solid black;
     height: 15%;
     width: 90%;
-    margin: 5% auto;
+    margin: 6% auto;
 }
 
 /*tooltips*/

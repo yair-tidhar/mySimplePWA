@@ -44,18 +44,28 @@ function animateParentChange(children, newparent){
         child.style.setProperty("--sw", pos.width+"px");
         child.style.setProperty("--fw", newpos.width+"px");
         //animation call
-        child.addEventListener('animationend', function() {
-            child.classList.remove('animateMove');
-        });
-        child.classList.add("animateMove");
+        giveAnimation(child, "animateMove");
         copies[i].remove();
     }
 }
 
+function giveAnimation(elem, animationClassName){
+    elem.addEventListener('animationend', function _2del() {
+            elem.classList.remove(animationClassName);
+            elem.removeEventListener("animationend", _2del)
+    });
+    elem.classList.add(animationClassName);
+}
+
+
 function playHand(){
     const found = document.querySelectorAll("#player > .card.selected");
+    if(found.length == 0) return;
     const move2 = document.getElementById("field");
     animateParentChange(Array.from(found), move2);
+
+
+    $("#curr_play").addClass("scoring");
 //    animateOne(found[0], move2);
 //    animateTransition( Array.from(found), move2 );
 }
