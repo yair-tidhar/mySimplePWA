@@ -1,7 +1,7 @@
 const jokersInfo = {
   "Joker": {
     "nr": "1\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png/revision/latest/scale-to-width-down/80?cb=20230925003651",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+4</span>\u00a0<a>Mult</a></b>\n</div>",
     "cost": "$2\n",
     "rarity": "Common\n",
@@ -11,7 +11,7 @@ const jokersInfo = {
   },
   "Greedy Joker": {
     "nr": "2\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/43/Greedy_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232231",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/43/Greedy_Joker.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Diamond_suit_icon.png\"></a><a><span style=color:#f15a27;><b>\u00a0Diamond</b></span></a> suit give <b><span style=color: #ff4c40;>+3</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -21,7 +21,7 @@ const jokersInfo = {
   },
   "Lusty Joker": {
     "nr": "3\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Lusty_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232232",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Lusty_Joker.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Heart_suit_icon.png\"></a><a><span style=color:#f11b52;><b>\u00a0Heart</b></span></a> suit give <b><span style=color: #ff4c40;>+3</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -31,7 +31,7 @@ const jokersInfo = {
   },
   "Wrathful Joker": {
     "nr": "4\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7b/Wrathful_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232232",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7b/Wrathful_Joker.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Spade_suit_icon.png\"></a><a><span style=color:#292189;><b>\u00a0Spade</b></span></a> suit give <b><span style=color: #ff4c40;>+3</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -41,7 +41,7 @@ const jokersInfo = {
   },
   "Gluttonous Joker": {
     "nr": "5\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/ac/Gluttonous_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232233",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/ac/Gluttonous_Joker.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Club_suit_icon.png\"></a><a><span style=color:#074540;><b>\u00a0Club</b></span></a> suit give <b><span style=color: #ff4c40;>+3</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -51,7 +51,7 @@ const jokersInfo = {
   },
   "Jolly Joker": {
     "nr": "6\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/40/Jolly_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232234",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/40/Jolly_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+8</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Pair</b></span></a>\n</div>",
     "cost": "$3\n",
     "rarity": "Common\n",
@@ -61,7 +61,7 @@ const jokersInfo = {
   },
   "Zany Joker": {
     "nr": "7\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/45/Zany_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232235",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/45/Zany_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+12</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Three of a Kind</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -71,7 +71,7 @@ const jokersInfo = {
   },
   "Mad Joker": {
     "nr": "8\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6d/Mad_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502163420",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6d/Mad_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+10</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Two Pair</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -81,7 +81,7 @@ const jokersInfo = {
   },
   "Crazy Joker": {
     "nr": "9\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4d/Crazy_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232255",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4d/Crazy_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+12</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Straight</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -91,7 +91,7 @@ const jokersInfo = {
   },
   "Droll Joker": {
     "nr": "10\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9c/Droll_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232533",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9c/Droll_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+10</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Flush</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -101,7 +101,7 @@ const jokersInfo = {
   },
   "Sly Joker": {
     "nr": "11\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4e/Sly_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502162932",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4e/Sly_Joker.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+50</b></span>\u00a0<b>Chips</b> if played hand contains a <a><span style=color:#ff8f00;><b>Pair</b></span></a>\n</div>",
     "cost": "$3\n",
     "rarity": "Common\n",
@@ -111,7 +111,7 @@ const jokersInfo = {
   },
   "Wily Joker": {
     "nr": "12\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4d/Wily_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232256",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4d/Wily_Joker.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+100</b></span>\u00a0<b>Chips</b> if played hand contains a <a><span style=color:#ff8f00;><b>Three of a Kind</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -121,7 +121,7 @@ const jokersInfo = {
   },
   "Clever Joker": {
     "nr": "13\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6a/Clever_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502162603",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6a/Clever_Joker.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+80</b></span>\u00a0<b>Chips</b> if played hand contains a <a><span style=color:#ff8f00;><b>Two Pair</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -131,7 +131,7 @@ const jokersInfo = {
   },
   "Devious Joker": {
     "nr": "14\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4a/Devious_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502162850",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4a/Devious_Joker.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+100</b></span>\u00a0<b>Chips</b> if played hand contains a <a><span style=color:#ff8f00;><b>Straight</b></span></a>.\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -141,7 +141,7 @@ const jokersInfo = {
   },
   "Crafty Joker": {
     "nr": "15\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7f/Crafty_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232258",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7f/Crafty_Joker.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+80</b></span>\u00a0<b>Chips</b> if played hand contains a <a><span style=color:#ff8f00;><b>Flush</b></span></a>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -151,7 +151,7 @@ const jokersInfo = {
   },
   "Half Joker": {
     "nr": "16\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a0/Half_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502193610",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a0/Half_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+20</span>\u00a0<a>Mult</a></b> if played hand contains <span style=color:#ff8f00;><b>3</b></span> or fewer cards.\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -161,7 +161,7 @@ const jokersInfo = {
   },
   "Joker Stencil": {
     "nr": "17\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/2e/Joker_Stencil.png/revision/latest/scale-to-width-down/80?cb=20230925030255",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/2e/Joker_Stencil.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b> for each empty <strong><span style=color:#ff8f00;><b>Joker</b></span></strong> slot. <b>Joker Stencil</b> included <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Uncommon\n",
@@ -171,7 +171,7 @@ const jokersInfo = {
   },
   "Four Fingers": {
     "nr": "18\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Four_Fingers.png/revision/latest/scale-to-width-down/80?cb=20230925031728",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Four_Fingers.png/revision/latest",
     "effect": "<div>All <a><span style=color:#ff8f00;><b>Flushes</b></span></a> and <a><span style=color:#ff8f00;><b>Straights</b></span></a> can be made with 4 cards\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -181,7 +181,7 @@ const jokersInfo = {
   },
   "Mime": {
     "nr": "19\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/65/Mime.png/revision/latest/scale-to-width-down/80?cb=20230925010010",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/65/Mime.png/revision/latest",
     "effect": "<div>Retrigger all card <span style=color:#ff8f00;><b>held in hand</b></span> abilities\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -191,7 +191,7 @@ const jokersInfo = {
   },
   "Credit Card": {
     "nr": "20\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/aa/Credit_Card.png/revision/latest/scale-to-width-down/80?cb=20230925010140",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/aa/Credit_Card.png/revision/latest",
     "effect": "<div>Go up to <span style=color:#ff4c40;><b>-$20</b></span> in debt\n</div>",
     "cost": "$1\n",
     "rarity": "Common\n",
@@ -201,7 +201,7 @@ const jokersInfo = {
   },
   "Ceremonial Dagger": {
     "nr": "21\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/76/Ceremonial_Dagger.png/revision/latest/scale-to-width-down/80?cb=20240429133046",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/76/Ceremonial_Dagger.png/revision/latest",
     "effect": "<div>When <a><span style=color:#ff8f00;><b>Blind</b></span></a> is selected, destroy <strong>Joker</strong> to the right and permanently add <span style=color:#ff8f00;><b>double</b></span> its sell value to this <span style=color:#ff4c40;><b>Mult</b></span> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -211,7 +211,7 @@ const jokersInfo = {
   },
   "Banner": {
     "nr": "22\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/87/Banner.png/revision/latest/scale-to-width-down/80?cb=20230925010658",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/87/Banner.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+30</b></span>\u00a0<b>Chips</b> for each remaining <span style=color:#ff8f00;><b>discard</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -221,7 +221,7 @@ const jokersInfo = {
   },
   "Mystic Summit": {
     "nr": "23\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a4/Mystic_Summit.png/revision/latest/scale-to-width-down/80?cb=20230925010736",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a4/Mystic_Summit.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+15</span>\u00a0<a>Mult</a></b> when <span style=color:#ff8f00;><b>0</b></span> discards remaining\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -231,7 +231,7 @@ const jokersInfo = {
   },
   "Marble Joker": {
     "nr": "24\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/16/Marble_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925010815",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/16/Marble_Joker.png/revision/latest",
     "effect": "<div>Adds one <a><span style=color:#ff8f00;><b>Stone</b></span></a> card to the deck when <a><span style=color:#ff8f00;><b>Blind</b></span></a> is selected\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -241,7 +241,7 @@ const jokersInfo = {
   },
   "Loyalty Card": {
     "nr": "25\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/eb/Loyalty_Card.png/revision/latest/scale-to-width-down/80?cb=20230925011025",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/eb/Loyalty_Card.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>x4</span>\u00a0<a>Mult</a></b> every <span style=color:#ff8f00;><b>6</b></span> hands played <br> <span style=color:#b1b1b1;><b>5 remaining</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -251,7 +251,7 @@ const jokersInfo = {
   },
   "8 Ball": {
     "nr": "26\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ef/8_Ball.png/revision/latest/scale-to-width-down/80?cb=20240501195704",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ef/8_Ball.png/revision/latest",
     "effect": "<div><span style=color:#35bd86;><b>1 in 4</b></span> chance for each played <span style=color:#ff8f00;><b>8</b></span> to create a <a><span style=color:#7b559c;><b>Tarot</b></span></a> card when scored<br><span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -261,7 +261,7 @@ const jokersInfo = {
   },
   "Misprint": {
     "nr": "27\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e1/Misprint.png/revision/latest/scale-to-width-down/80?cb=20230925011346",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e1/Misprint.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+?</span>\u00a0<a>Mult</a></b>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -271,7 +271,7 @@ const jokersInfo = {
   },
   "Dusk": {
     "nr": "28\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Dusk.png/revision/latest/scale-to-width-down/80?cb=20230925032601",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Dusk.png/revision/latest",
     "effect": "<div>Retrigger all played cards in <span style=color:#ff8f00;><b>final hand</b></span> of the round\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -281,7 +281,7 @@ const jokersInfo = {
   },
   "Raised Fist": {
     "nr": "29\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/37/Raised_Fist.png/revision/latest/scale-to-width-down/80?cb=20230925012830",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/37/Raised_Fist.png/revision/latest",
     "effect": "<div>Adds <span style=color:#ff8f00;><b>double</b></span> the rank of <span style=color:#ff8f00;><b>lowest</b></span> ranked card held in hand to Mult\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -291,7 +291,7 @@ const jokersInfo = {
   },
   "Chaos the Clown": {
     "nr": "30\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/02/Chaos_the_Clown.png/revision/latest/scale-to-width-down/80?cb=20230925003955",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/02/Chaos_the_Clown.png/revision/latest",
     "effect": "<div><span style=color:#ff8f00;><b>1</b></span> free <span style=color:#35bd86;><b>Reroll</b></span> per shop\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -301,7 +301,7 @@ const jokersInfo = {
   },
   "Fibonacci": {
     "nr": "31\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/f1/Fibonacci.png/revision/latest/scale-to-width-down/80?cb=20230925030041",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/f1/Fibonacci.png/revision/latest",
     "effect": "<div>Each played <span style=color:#ff8f00;><b>Ace</b></span>, <span style=color:#ff8f00;><b>2</b></span>, <span style=color:#ff8f00;><b>3</b></span>, <span style=color:#ff8f00;><b>5</b></span>, or <span style=color:#ff8f00;><b>8</b></span> gives <b><span style=color: #ff4c40;>+8</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$8\n",
     "rarity": "Uncommon\n",
@@ -311,7 +311,7 @@ const jokersInfo = {
   },
   "Steel Joker": {
     "nr": "32\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Steel_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925011654",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Steel_Joker.png/revision/latest",
     "effect": "<div>Gives <b><span style=color: #ff4c40;>X0.2</span>\u00a0<a>Mult</a></b> for each <a><span style=color:#ff8f00;><b>Steel Card</b></span></a> in your <span style=color:#ff8f00;><b>full deck</b></span> <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -321,7 +321,7 @@ const jokersInfo = {
   },
   "Scary Face": {
     "nr": "33\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c8/Scary_Face.png/revision/latest/scale-to-width-down/80?cb=20240320232259",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c8/Scary_Face.png/revision/latest",
     "effect": "<div>Played <span style=color:#ff8f00;><b>face</b></span> cards give <span style=color:#0093ff;><b>+30</b></span>\u00a0<b>Chips</b> when scored\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -331,7 +331,7 @@ const jokersInfo = {
   },
   "Abstract Joker": {
     "nr": "34\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/ca/Abstract_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925013704",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/ca/Abstract_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+3</span>\u00a0<a>Mult</a></b> for each <strong><span style=color:#ff8f00;><b>Joker</b></span></strong> card <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -341,7 +341,7 @@ const jokersInfo = {
   },
   "Delayed Gratification": {
     "nr": "35\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c3/Delayed_Gratification.png/revision/latest/scale-to-width-down/80?cb=20230925013747",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c3/Delayed_Gratification.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$2</b></span> per <span style=color:#ff8f00;><b>discard</b></span> if no discards are used by end of the round\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -351,7 +351,7 @@ const jokersInfo = {
   },
   "Hack": {
     "nr": "36\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Hack.png/revision/latest/scale-to-width-down/80?cb=20230925011231",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fd/Hack.png/revision/latest",
     "effect": "<div>Retrigger each played <span style=color:#ff8f00;><b>2</b></span>, <span style=color:#ff8f00;><b>3</b></span>, <span style=color:#ff8f00;><b>4</b></span>, or <span style=color:#ff8f00;><b>5</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -361,7 +361,7 @@ const jokersInfo = {
   },
   "Pareidolia": {
     "nr": "37\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/81/Pareidolia.png/revision/latest/scale-to-width-down/80?cb=20240429132936",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/81/Pareidolia.png/revision/latest",
     "effect": "<div>All cards are considered <span style=color:#ff8f00;><b>face</b></span> cards\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -371,7 +371,7 @@ const jokersInfo = {
   },
   "Gros Michel": {
     "nr": "38\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6f/Gros_Michel.png/revision/latest/scale-to-width-down/80?cb=20230925031850",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6f/Gros_Michel.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+15</span>\u00a0<a>Mult</a></b><br><span style=color:#35bd86;><b>1 in 6</b></span> chance this is destroyed at the end of round.\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -381,7 +381,7 @@ const jokersInfo = {
   },
   "Even Steven": {
     "nr": "39\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/20/Even_Steven.png/revision/latest/scale-to-width-down/80?cb=20230925021257",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/20/Even_Steven.png/revision/latest",
     "effect": "<div>Played cards with <a><span style=color:#ff8f00;><b>even</b></span></a> rank give <b><span style=color: #ff4c40;>+4</span>\u00a0<a>Mult</a></b> when scored <br> <span style=color:#b1b1b1;><b>(10, 8, 6, 4, 2)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -391,7 +391,7 @@ const jokersInfo = {
   },
   "Odd Todd": {
     "nr": "40\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/17/Odd_Todd.png/revision/latest/scale-to-width-down/80?cb=20230925021342",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/17/Odd_Todd.png/revision/latest",
     "effect": "<div>Played cards with <a><span style=color:#ff8f00;><b>odd</b></span></a> rank give <span style=color:#0093ff;><b>+31</b></span>\u00a0<b>Chips</b> when scored <br> <span style=color:#b1b1b1;><b>(A, 9, 7, 5, 3)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -401,7 +401,7 @@ const jokersInfo = {
   },
   "Scholar": {
     "nr": "41\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c5/Scholar.png/revision/latest/scale-to-width-down/80?cb=20230925021359",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c5/Scholar.png/revision/latest",
     "effect": "<div>Played <span style=color:#ff8f00;><b>Aces</b></span> give <span style=color:#0093ff;><b>+20</b></span>\u00a0<b>Chips</b> and <b><span style=color: #ff4c40;>+4</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -411,7 +411,7 @@ const jokersInfo = {
   },
   "Business Card": {
     "nr": "42\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/16/Business_Card.png/revision/latest/scale-to-width-down/80?cb=20230925021530",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/16/Business_Card.png/revision/latest",
     "effect": "<div>Played <span style=color:#ff8f00;><b>face</b></span> cards have a <span style=color:#35bd86;><b>1 in 2</b></span> chance to give <span style=color:#f5b244;><b>$2</b></span> when scored\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -421,7 +421,7 @@ const jokersInfo = {
   },
   "Supernova": {
     "nr": "43\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/30/Supernova.png/revision/latest/scale-to-width-down/80?cb=20230925021716",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/30/Supernova.png/revision/latest",
     "effect": "<div>Adds the number of times <a><span style=color:#ff8f00;><b>poker hand</b></span></a> has been played this run to Mult\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -431,7 +431,7 @@ const jokersInfo = {
   },
   "Ride the Bus": {
     "nr": "44\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/34/Ride_the_Bus.png/revision/latest/scale-to-width-down/80?cb=20230925031327",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/34/Ride_the_Bus.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>+1</span>\u00a0<a>Mult</a></b> per <span style=color:#ff8f00;><b>consecutive</b></span> hand played without a scoring <span style=color:#ff8f00;><b>face</b></span> card <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Common\n",
@@ -441,7 +441,7 @@ const jokersInfo = {
   },
   "Space Joker": {
     "nr": "45\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/70/Space_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925030535",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/70/Space_Joker.png/revision/latest",
     "effect": "<div><span style=color:#35bd86;><b>1 in 4</b></span> chance to upgrade level of played <a><span style=color:#ff8f00;><b>poker hand</b></span></a>\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -451,7 +451,7 @@ const jokersInfo = {
   },
   "Egg": {
     "nr": "46\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/26/Egg.png/revision/latest/scale-to-width-down/80?cb=20230925034821",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/26/Egg.png/revision/latest",
     "effect": "<div>Gains <span style=color:#f5b244;><b>$3</b></span> of <span style=color:#ff8f00;><b>sell value</b></span> at end of round\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -461,7 +461,7 @@ const jokersInfo = {
   },
   "Burglar": {
     "nr": "47\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/29/Burglar.png/revision/latest/scale-to-width-down/80?cb=20230925034923",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/29/Burglar.png/revision/latest",
     "effect": "<div>When <span style=color:#ff8f00;><b>Blind</b></span> is selected, gain <span style=color:#009dff;><b>+3</b></span> <b>Hands</b> and <span style=color:#ff8f00;><b>lose all discards</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -471,7 +471,7 @@ const jokersInfo = {
   },
   "Blackboard": {
     "nr": "48\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c6/Blackboard.png/revision/latest/scale-to-width-down/80?cb=20230925035010",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c6/Blackboard.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> if all cards held in hand are <a><img src=\"Spade_suit_icon.png\"></a><a><span style=color:#292189;><b>\u00a0Spades</b></span></a> or <a><img src=\"Club_suit_icon.png\"></a><a><span style=color:#074540;><b>\u00a0Clubs</b></span></a>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -481,7 +481,7 @@ const jokersInfo = {
   },
   "Runner": {
     "nr": "49\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/14/Runner.png/revision/latest/scale-to-width-down/80?cb=20230925035057",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/14/Runner.png/revision/latest",
     "effect": "<div>Gains <span style=color:#0093ff;><b>+15</b></span>\u00a0<b>Chips</b> if played hand contains a <a><span style=color:#ff8f00;><b>Straight</b></span></a> <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#0093ff;><b>+0</b></span>\u00a0<b>Chips</b>)</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -491,7 +491,7 @@ const jokersInfo = {
   },
   "Ice Cream": {
     "nr": "50\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Ice_Cream.png/revision/latest/scale-to-width-down/80?cb=20230925035153",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/5d/Ice_Cream.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+100</b></span>\u00a0<b>Chips</b><br><span style=color:#0093ff;><b>-5</b></span>\u00a0<b>Chips</b> for every hand played\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -501,7 +501,7 @@ const jokersInfo = {
   },
   "DNA": {
     "nr": "51\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/47/DNA.png/revision/latest/scale-to-width-down/80?cb=20230925035227",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/47/DNA.png/revision/latest",
     "effect": "<div>If <span style=color:#ff8f00;><b>first hand</b></span> of round has only <span style=color:#ff8f00;><b>1</b></span> card, add a permanent copy to deck and draw it to <span style=color:#ff8f00;><b>hand</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -511,7 +511,7 @@ const jokersInfo = {
   },
   "Splash": {
     "nr": "52\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/01/Splash.png/revision/latest/scale-to-width-down/80?cb=20230925035324",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/01/Splash.png/revision/latest",
     "effect": "<div>Every <span style=color:#ff8f00;><b>played card</b></span> counts in scoring\n</div>",
     "cost": "$3\n",
     "rarity": "Common\n",
@@ -521,7 +521,7 @@ const jokersInfo = {
   },
   "Blue Joker": {
     "nr": "53\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ed/Blue_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502124050",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ed/Blue_Joker.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+2</b></span>\u00a0<b>Chips</b> for each remaining card in <span style=color:#ff8f00;><b>deck</b></span> <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#0093ff;><b>+104</b></span>\u00a0<b>Chips</b>)</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -531,7 +531,7 @@ const jokersInfo = {
   },
   "Sixth Sense": {
     "nr": "54\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d5/Sixth_Sense.png/revision/latest/scale-to-width-down/80?cb=20240320232300",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d5/Sixth_Sense.png/revision/latest",
     "effect": "<div>If <span style=color:#ff8f00;><b>first hand</b></span> of round is a single <span style=color:#ff8f00;><b>6</b></span>, destroy it and create a <a><span style=color:#2e76fd;><b>Spectral</b></span></a> card <br> <span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -541,7 +541,7 @@ const jokersInfo = {
   },
   "Constellation": {
     "nr": "55\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/69/Constellation.png/revision/latest/scale-to-width-down/80?cb=20230925035508",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/69/Constellation.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.1</span>\u00a0<a>Mult</a></b> every time a <a><span style=color:#00a8ca;><b>Planet</b></span></a> card is used <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -551,7 +551,7 @@ const jokersInfo = {
   },
   "Hiker": {
     "nr": "56\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a9/Hiker.png/revision/latest/scale-to-width-down/80?cb=20230925035548",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a9/Hiker.png/revision/latest",
     "effect": "<div>Every played <span style=color:#ff8f00;><b>card</b></span> permanently gains <span style=color:#0093ff;><b>+5</b></span>\u00a0<b>Chips</b> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -561,7 +561,7 @@ const jokersInfo = {
   },
   "Faceless Joker": {
     "nr": "57\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8f/Faceless_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232316",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8f/Faceless_Joker.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$5</b></span> if <span style=color:#ff8f00;><b>3</b></span> or more <span style=color:#ff8f00;><b>face cards</b></span> are discarded at the same time\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -571,7 +571,7 @@ const jokersInfo = {
   },
   "Green Joker": {
     "nr": "58\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6c/Green_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232316",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6c/Green_Joker.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+1</span>\u00a0<a>Mult</a></b> per hand played <br> <b><span style=color: #ff4c40;>-1</span>\u00a0<a>Mult</a></b> per discard <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -581,7 +581,7 @@ const jokersInfo = {
   },
   "Superposition": {
     "nr": "59\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/68/Superposition.png/revision/latest/scale-to-width-down/80?cb=20230925035625",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/68/Superposition.png/revision/latest",
     "effect": "<div>Create a <a><span style=color:#7b559c;><b>Tarot</b></span></a> card if poker hand contains an <span style=color:#ff8f00;><b>Ace</b></span> and a <a><span style=color:#ff8f00;><b>Straight</b></span></a> <br> <span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -591,7 +591,7 @@ const jokersInfo = {
   },
   "To Do List": {
     "nr": "60\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/2c/To_Do_List.png/revision/latest/scale-to-width-down/80?cb=20230925035709",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/2c/To_Do_List.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$4</b></span> if <a><span style=color:#ff8f00;><b>poker hand</b></span></a> is a <a><span style=color:#ff8f00;><b>[Poker\u00a0Hand]</b></span></a>, poker hand changes at end of round\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -601,7 +601,7 @@ const jokersInfo = {
   },
   "Cavendish": {
     "nr": "61\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/13/Cavendish.png/revision/latest/scale-to-width-down/80?cb=20240320232317",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/13/Cavendish.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> <br> <span style=color:#35bd86;><b>1 in 1000</b></span> chance this card is destroyed at the end of round\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -611,7 +611,7 @@ const jokersInfo = {
   },
   "Card Sharp": {
     "nr": "62\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/12/Card_Sharp.png/revision/latest/scale-to-width-down/80?cb=20240502124025",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/12/Card_Sharp.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> if played <span style=color:#ff8f00;><b>poker hand</b></span> has already been played this round\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -621,7 +621,7 @@ const jokersInfo = {
   },
   "Red Card": {
     "nr": "63\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/93/Red_Card.png/revision/latest/scale-to-width-down/80?cb=20240320232317",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/93/Red_Card.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>+3</span>\u00a0<a>Mult</a></b> when any <a><span style=color:#ff8f00;><b>Booster Pack</b></span></a> is skipped <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -631,7 +631,7 @@ const jokersInfo = {
   },
   "Madness": {
     "nr": "64\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ee/Madness.png/revision/latest/scale-to-width-down/80?cb=20240320232318",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ee/Madness.png/revision/latest",
     "effect": "<div>When <span style=color:#ff8f00;><b>Small Blind</b></span> or <span style=color:#ff8f00;><b>Big Blind</b></span> is selected, gain <b><span style=color: #ff4c40;>X0.5</span>\u00a0<a>Mult</a></b> and destroy a random Joker <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -641,7 +641,7 @@ const jokersInfo = {
   },
   "Square Joker": {
     "nr": "65\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/53/Square_Joker.png/revision/latest/scale-to-width-down/80?cb=20240502193704",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/53/Square_Joker.png/revision/latest",
     "effect": "<div>This Joker gains <span style=color:#0093ff;><b>+4</b></span>\u00a0<b>Chips</b> if played hand has exactly <span style=color:#ff8f00;><b>4</b></span> cards <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#0093ff;><b>0</b></span>\u00a0<b>Chips</b>)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -651,7 +651,7 @@ const jokersInfo = {
   },
   "S\u00e9ance": {
     "nr": "66\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6f/S%C3%A9ance.png/revision/latest/scale-to-width-down/80?cb=20240320232319",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6f/S%C3%A9ance.png/revision/latest",
     "effect": "<div>If <a><span style=color:#ff8f00;><b>poker hand</b></span></a> is a <a><span style=color:#ff8f00;><b>Straight Flush</b></span></a>, create a random <a><span style=color:#2e76fd;><b>Spectral</b></span></a> card <br> <span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -661,7 +661,7 @@ const jokersInfo = {
   },
   "Riff-Raff": {
     "nr": "67\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d2/Riff-Raff.png/revision/latest/scale-to-width-down/80?cb=20240502123959",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d2/Riff-Raff.png/revision/latest",
     "effect": "<div>When <a><span style=color:#ff8f00;><b>Blind</b></span></a> is selected, create <span style=color:#ff8f00;><b>2</b></span> <a><span style=color:#009dff;><b>Common</b></span> <span style=color:#ff8f00;><b>Jokers</b></span></a> <br> <span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Common\n",
@@ -671,7 +671,7 @@ const jokersInfo = {
   },
   "Vampire": {
     "nr": "68\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4e/Vampire.png/revision/latest/scale-to-width-down/80?cb=20240320232319",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4e/Vampire.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.1</span>\u00a0<a>Mult</a></b> per scoring <span style=color:#ff8f00;><b>Enhanced card</b></span> played, removes card <span style=color:#ff8f00;><b>Enhancement</b></span> <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -681,7 +681,7 @@ const jokersInfo = {
   },
   "Shortcut": {
     "nr": "69\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/89/Shortcut.png/revision/latest/scale-to-width-down/80?cb=20240320232320",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/89/Shortcut.png/revision/latest",
     "effect": "<div>Allows <a><span style=color:#ff8f00;><b>Straights</b></span></a> to be made with gaps of <span style=color:#ff8f00;><b>1 rank</b></span> <br> <span style=color:#b1b1b1;><b>(ex: <span style=color:#ff8f00;><b>10 8 6 5 3</b></span>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -691,7 +691,7 @@ const jokersInfo = {
   },
   "Hologram": {
     "nr": "70\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/07/Hologram.gif/revision/latest/scale-to-width-down/80?cb=20240413030441",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/07/Hologram.gif/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.25</span>\u00a0<a>Mult</a></b> every time a <span style=color:#ff8f00;><b>playing card</b></span> is added to your deck <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -701,7 +701,7 @@ const jokersInfo = {
   },
   "Vagabond": {
     "nr": "71\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e7/Vagabond.png/revision/latest/scale-to-width-down/80?cb=20240320232321",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e7/Vagabond.png/revision/latest",
     "effect": "<div>Create a <a><span style=color:#7b559c;><b>Tarot</b></span></a> card if hand is played with <span style=color:#f5b244;><b>$4</b></span> or less\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -711,7 +711,7 @@ const jokersInfo = {
   },
   "Baron": {
     "nr": "72\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/40/Baron.png/revision/latest/scale-to-width-down/80?cb=20240502124112",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/40/Baron.png/revision/latest",
     "effect": "<div>Each <span style=color:#ff8f00;><b>King</b></span> held in hand gives <b><span style=color: #ff4c40;>X1.5</span>\u00a0<a>Mult</a></b>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -721,7 +721,7 @@ const jokersInfo = {
   },
   "Cloud 9": {
     "nr": "73\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4a/Cloud_9.png/revision/latest/scale-to-width-down/80?cb=20240320232321",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4a/Cloud_9.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$1</b></span> for each <span style=color:#ff8f00;><b>9</b></span> in your <span style=color:#ff8f00;><b>full deck</b></span> at end of round <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#f5b244;><b>$4</b></span>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -731,7 +731,7 @@ const jokersInfo = {
   },
   "Rocket": {
     "nr": "74\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fb/Rocket.png/revision/latest/scale-to-width-down/80?cb=20240320232322",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fb/Rocket.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$1</b></span> at end of round. Payout increases by <span style=color:#f5b244;><b>$2</b></span> when <a><span style=color:#ff8f00;><b>Boss Blind</b></span></a> is defeated\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -741,7 +741,7 @@ const jokersInfo = {
   },
   "Obelisk": {
     "nr": "75\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/b/be/Obelisk.png/revision/latest/scale-to-width-down/80?cb=20240320232322",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/b/be/Obelisk.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.2</span>\u00a0<a>Mult</a></b> per <span style=color:#ff8f00;><b>consecutive</b></span> hand played without playing your most played <span style=color:#ff8f00;><b>poker hand</b></span> <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -751,7 +751,7 @@ const jokersInfo = {
   },
   "Midas Mask": {
     "nr": "76\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/84/Midas_Mask.png/revision/latest/scale-to-width-down/80?cb=20240320232323",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/84/Midas_Mask.png/revision/latest",
     "effect": "<div>All played <span style=color:#ff8f00;><b>face</b></span> cards become <a><span style=color:#ff8f00;><b>Gold</b></span></a> cards when scored\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -761,7 +761,7 @@ const jokersInfo = {
   },
   "Luchador": {
     "nr": "77\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/64/Luchador.png/revision/latest/scale-to-width-down/80?cb=20240320232323",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/64/Luchador.png/revision/latest",
     "effect": "<div>Sell this card to disable the current <a><span style=color:#ff8f00;><b>Boss Blind</b></span></a>\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -771,7 +771,7 @@ const jokersInfo = {
   },
   "Photograph": {
     "nr": "78\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/06/Photograph.png/revision/latest/scale-to-width-down/80?cb=20240320232957",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/06/Photograph.png/revision/latest",
     "effect": "<div>First played <span style=color:#ff8f00;><b>face</b></span> card gives <b><span style=color: #ff4c40;>X2</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -781,7 +781,7 @@ const jokersInfo = {
   },
   "Gift Card": {
     "nr": "79\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/37/Gift_Card.png/revision/latest/scale-to-width-down/80?cb=20240320232324",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/37/Gift_Card.png/revision/latest",
     "effect": "<div>Add <span style=color:#f5b244;><b>$1</b></span> of <span style=color:#ff8f00;><b>sell value</b></span> to every <strong><span style=color:#ff8f00;><b>Joker</b></span></strong> and <a><span style=color:#ff8f00;><b>Consumable</b></span></a> card at end of round\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -791,7 +791,7 @@ const jokersInfo = {
   },
   "Turtle Bean": {
     "nr": "80\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/ca/Turtle_Bean.png/revision/latest/scale-to-width-down/80?cb=20240320232324",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/ca/Turtle_Bean.png/revision/latest",
     "effect": "<div><span style=color:#ff8f00;><b>+5</b></span> hand size, reduces by <span style=color:#ff4c40;><b>1</b></span> each round\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -801,7 +801,7 @@ const jokersInfo = {
   },
   "Erosion": {
     "nr": "81\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/3a/Erosion.png/revision/latest/scale-to-width-down/80?cb=20240320232325",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/3a/Erosion.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+4</span>\u00a0<a>Mult</a></b> for each card below <span style=color:#ff8f00;><b>[the deck's starting size]</b></span> in your full deck <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -811,7 +811,7 @@ const jokersInfo = {
   },
   "Reserved Parking": {
     "nr": "82\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c2/Reserved_Parking.png/revision/latest/scale-to-width-down/80?cb=20240320232325",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c2/Reserved_Parking.png/revision/latest",
     "effect": "<div>Each <span style=color:#ff8f00;><b>face</b></span> card held in hand has a <span style=color:#35bd86;><b>1 in 2</b></span> chance to give <span style=color:#f5b244;><b>$1</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Common\n",
@@ -821,7 +821,7 @@ const jokersInfo = {
   },
   "Mail-In Rebate": {
     "nr": "83\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/3d/Mail-In_Rebate.png/revision/latest/scale-to-width-down/80?cb=20240320232326",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/3/3d/Mail-In_Rebate.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$5</b></span> for each discarded <a><span style=color:#ff8f00;><b>[rank]</b></span></a>, rank changes every round\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -831,7 +831,7 @@ const jokersInfo = {
   },
   "To the Moon": {
     "nr": "84\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d1/To_the_Moon.png/revision/latest/scale-to-width-down/80?cb=20240320232326",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d1/To_the_Moon.png/revision/latest",
     "effect": "<div>Earn an extra <span style=color:#f5b244;><b>$1</b></span> of <span style=color:#ff8f00;><b>interest</b></span> for every <span style=color:#f5b244;><b>$5</b></span> you have at end of round\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -841,7 +841,7 @@ const jokersInfo = {
   },
   "Hallucination": {
     "nr": "85\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/b/bc/Hallucination.png/revision/latest/scale-to-width-down/80?cb=20240320232327",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/b/bc/Hallucination.png/revision/latest",
     "effect": "<div><span style=color:#35bd86;><b>1 in 2</b></span> chance to create a <a><span style=color:#7b559c;><b>Tarot</b></span></a> card when any <a><span style=color:#ff8f00;><b>Booster Pack</b></span></a> is opened <br> <span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -851,7 +851,7 @@ const jokersInfo = {
   },
   "Fortune Teller": {
     "nr": "86\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8b/Fortune_Teller.png/revision/latest/scale-to-width-down/80?cb=20230925030949",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8b/Fortune_Teller.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+1</span>\u00a0<a>Mult</a></b> per <a><span style=color:#7b559c;><b>Tarot</b></span></a> card used this run <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#ff4c40;><b>+0</b></span>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Common\n",
@@ -861,7 +861,7 @@ const jokersInfo = {
   },
   "Juggler": {
     "nr": "87\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/b/be/Juggler.png/revision/latest/scale-to-width-down/80?cb=20230925005642",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/b/be/Juggler.png/revision/latest",
     "effect": "<div><span style=color:#ff8f00;><b>+1</b></span> hand size\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -871,7 +871,7 @@ const jokersInfo = {
   },
   "Drunkard": {
     "nr": "88\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/48/Drunkard.png/revision/latest/scale-to-width-down/80?cb=20230925005733",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/48/Drunkard.png/revision/latest",
     "effect": "<div><span style=color:#ff4c40;><b>+1</b></span> discard each round\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -881,7 +881,7 @@ const jokersInfo = {
   },
   "Stone Joker": {
     "nr": "89\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c9/Stone_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925005605",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c9/Stone_Joker.png/revision/latest",
     "effect": "<div>Gives <span style=color:#0093ff;><b>+25</b></span>\u00a0<b>Chips</b> for each <a><span style=color:#ff8f00;><b>Stone Card</b></span></a> in your <span style=color:#ff8f00;><b>full deck</b></span> <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#0093ff;><b>+0</b></span>\u00a0<b>Chips</b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -891,7 +891,7 @@ const jokersInfo = {
   },
   "Golden Joker": {
     "nr": "90\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9a/Golden_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925013018",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9a/Golden_Joker.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$4</b></span> at end of round\n</div>",
     "cost": "$6\n",
     "rarity": "Common\n",
@@ -901,7 +901,7 @@ const jokersInfo = {
   },
   "Lucky Cat": {
     "nr": "91\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/f1/Lucky_Cat.png/revision/latest/scale-to-width-down/80?cb=20240320232327",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/f1/Lucky_Cat.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.25</span>\u00a0<a>Mult</a></b> every time a <a><span style=color:#ff8f00;><b>Lucky</b></span></a> card <span style=color:#35bd86;><b>successfully</b></span> triggers <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -911,7 +911,7 @@ const jokersInfo = {
   },
   "Baseball Card": {
     "nr": "92\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/dd/Baseball_Card.png/revision/latest/scale-to-width-down/80?cb=20240320232328",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/dd/Baseball_Card.png/revision/latest",
     "effect": "<div><span style=color:#35bd86;><b>Uncommon</b></span> Jokers each give <b><span style=color: #ff4c40;>X1.5</span>\u00a0<a>Mult</a></b>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -921,7 +921,7 @@ const jokersInfo = {
   },
   "Bull": {
     "nr": "93\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7a/Bull.png/revision/latest/scale-to-width-down/80?cb=20240320232328",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7a/Bull.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+2</b></span>\u00a0<b>Chips</b> for each <span style=color:#f5b244;><b>$1</b></span> you have <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#0093ff;><b>+0</b></span>\u00a0<b>Chips</b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -931,7 +931,7 @@ const jokersInfo = {
   },
   "Diet Cola": {
     "nr": "94\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/57/Diet_Cola.png/revision/latest/scale-to-width-down/80?cb=20240320232328",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/57/Diet_Cola.png/revision/latest",
     "effect": "<div>Sell this card to create a free <a><span style=color:#ff8f00;><b>Double Tag</b></span></a>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -941,7 +941,7 @@ const jokersInfo = {
   },
   "Trading Card": {
     "nr": "95\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/0c/Trading_Card.png/revision/latest/scale-to-width-down/80?cb=20240320232329",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/0c/Trading_Card.png/revision/latest",
     "effect": "<div>If <span style=color:#ff8f00;><b>first discard</b></span> of round has only <span style=color:#ff8f00;><b>1</b></span> card, destroy it and earn <span style=color:#f5b244;><b>$3</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -951,7 +951,7 @@ const jokersInfo = {
   },
   "Flash Card": {
     "nr": "96\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e3/Flash_Card.png/revision/latest/scale-to-width-down/80?cb=20240320232329",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e3/Flash_Card.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>+2</span>\u00a0<a>Mult</a></b> per <span style=color:#ff8f00;><b>reroll</b></span> in <a>the shop</a> <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -961,7 +961,7 @@ const jokersInfo = {
   },
   "Popcorn": {
     "nr": "97\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/85/Popcorn.png/revision/latest/scale-to-width-down/80?cb=20240320232401",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/85/Popcorn.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+20</span>\u00a0<a>Mult</a></b> <br> <b><span style=color: #ff4c40;>-4</span>\u00a0<a>Mult</a></b> per round played\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -971,7 +971,7 @@ const jokersInfo = {
   },
   "Spare Trousers": {
     "nr": "98\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/85/Spare_Trousers.png/revision/latest/scale-to-width-down/80?cb=20240320232402",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/85/Spare_Trousers.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>+2</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Two Pair</b></span></a> <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -981,7 +981,7 @@ const jokersInfo = {
   },
   "Ancient Joker": {
     "nr": "99\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a3/Ancient_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232402",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a3/Ancient_Joker.png/revision/latest",
     "effect": "<div>Each played card with <a><span style=color:#ff8f00;><b>[suit]</b></span></a> gives <b><span style=color: #ff4c40;>X1.5</span>\u00a0<a>Mult</a></b> when scored, <br> <span style=font-size: 85%;>suit changes at end of round</span>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -991,7 +991,7 @@ const jokersInfo = {
   },
   "Ramen": {
     "nr": "100\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/f8/Ramen.png/revision/latest/scale-to-width-down/80?cb=20240320232403",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/f8/Ramen.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X2</span>\u00a0<a>Mult</a></b>, loses <b><span style=color: #ff4c40;>X0.01</span>\u00a0<a>Mult</a></b> per <span style=color:#ff8f00;><b>card</b></span> discarded\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1001,7 +1001,7 @@ const jokersInfo = {
   },
   "Walkie Talkie": {
     "nr": "101\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a3/Walkie_Talkie.png/revision/latest/scale-to-width-down/80?cb=20240320232403",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a3/Walkie_Talkie.png/revision/latest",
     "effect": "<div>Each played <span style=color:#ff8f00;><b>10</b></span> or <span style=color:#ff8f00;><b>4</b></span> gives <span style=color:#0093ff;><b>+10</b></span>\u00a0<b>Chips</b> and <b><span style=color: #ff4c40;>+4</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -1011,7 +1011,7 @@ const jokersInfo = {
   },
   "Seltzer": {
     "nr": "102\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/69/Seltzer.png/revision/latest/scale-to-width-down/80?cb=20240320232404",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/69/Seltzer.png/revision/latest",
     "effect": "<div>Retrigger all cards played for the next <span style=color:#ff8f00;><b>10</b></span> hands\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1021,7 +1021,7 @@ const jokersInfo = {
   },
   "Castle": {
     "nr": "103\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/1f/Castle.png/revision/latest/scale-to-width-down/80?cb=20240320232404",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/1f/Castle.png/revision/latest",
     "effect": "<div>This Joker gains <span style=color:#0093ff;><b>+3</b></span>\u00a0<b>Chips</b> per discarded <a>[Suit]</a> card, suit changes every round <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#0093ff;><b>+0</b></span>\u00a0<b>Chips</b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1031,7 +1031,7 @@ const jokersInfo = {
   },
   "Smiley Face": {
     "nr": "104\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6f/Smiley_Face.png/revision/latest/scale-to-width-down/80?cb=20240320232405",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/6f/Smiley_Face.png/revision/latest",
     "effect": "<div>Played <span style=color:#ff8f00;><b>face</b></span> cards give <b><span style=color: #ff4c40;>+5</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -1041,7 +1041,7 @@ const jokersInfo = {
   },
   "Campfire": {
     "nr": "105\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/01/Campfire.png/revision/latest/scale-to-width-down/80?cb=20240320232405",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/01/Campfire.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.25</span>\u00a0<a>Mult</a></b> for each card <span style=color:#ff8f00;><b>sold</b></span>, resets when <a><span style=color:#ff8f00;><b>Boss Blind</b></span></a> is defeated <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$9\n",
     "rarity": "Rare\n",
@@ -1051,7 +1051,7 @@ const jokersInfo = {
   },
   "Golden Ticket": {
     "nr": "106\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/cf/Golden_Ticket.png/revision/latest/scale-to-width-down/80?cb=20230925020945",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/cf/Golden_Ticket.png/revision/latest",
     "effect": "<div>Played <a><span style=color:#ff8f00;><b>Gold</b></span></a> cards earn <span style=color:#f5b244;><b>$4</b></span> when scored\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -1061,7 +1061,7 @@ const jokersInfo = {
   },
   "Mr. Bones": {
     "nr": "107\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/11/Mr._Bones.png/revision/latest/scale-to-width-down/80?cb=20230925021838",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/11/Mr._Bones.png/revision/latest",
     "effect": "<div>Prevents Death if chips scored are at least <span style=color:#ff8f00;><b>25%</b></span> of required chips <br> <span style=color:#ff4c40;><b>self destructs</b></span>\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -1071,7 +1071,7 @@ const jokersInfo = {
   },
   "Acrobat": {
     "nr": "108\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8f/Acrobat.png/revision/latest/scale-to-width-down/80?cb=20240320232405",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8f/Acrobat.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> on <span style=color:#ff8f00;><b>final hand</b></span> of round\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1081,7 +1081,7 @@ const jokersInfo = {
   },
   "Sock and Buskin": {
     "nr": "109\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/48/Sock_and_Buskin.png/revision/latest/scale-to-width-down/80?cb=20240429133023",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/48/Sock_and_Buskin.png/revision/latest",
     "effect": "<div>Retrigger all played <span style=color:#ff8f00;><b>face</b></span> cards\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1091,7 +1091,7 @@ const jokersInfo = {
   },
   "Swashbuckler": {
     "nr": "110\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/88/Swashbuckler.png/revision/latest/scale-to-width-down/80?cb=20230925031133",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/88/Swashbuckler.png/revision/latest",
     "effect": "<div>Adds the sell value of all other owned <strong><span style=color:#ff8f00;><b>Jokers</b></span></strong> to Mult <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -1101,7 +1101,7 @@ const jokersInfo = {
   },
   "Troubadour": {
     "nr": "111\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/64/Troubadour.png/revision/latest/scale-to-width-down/80?cb=20230925010607",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/64/Troubadour.png/revision/latest",
     "effect": "<div><span style=color:#ff8f00;><b>+2</b></span> hand size, <br> <span style=color:#009dff;><b>-1</b></span> hand per round\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1111,7 +1111,7 @@ const jokersInfo = {
   },
   "Certificate": {
     "nr": "112\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e5/Certificate.png/revision/latest/scale-to-width-down/80?cb=20230925034146",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e5/Certificate.png/revision/latest",
     "effect": "<div>When round begins, add a random <span style=color:#ff8f00;><b>playing card</b></span> with a random <a><span style=color:#ff8f00;><b>seal</b></span></a> to your hand\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1121,7 +1121,7 @@ const jokersInfo = {
   },
   "Smeared Joker": {
     "nr": "113\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7d/Smeared_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925031538",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/7d/Smeared_Joker.png/revision/latest",
     "effect": "<div><a><img src=\"Heart_suit_icon.png\"></a><a><span style=color:#f11b52;><b>\u00a0Hearts</b></span></a> and <a><img src=\"Diamond_suit_icon.png\"></a><a><span style=color:#f15a27;><b>\u00a0Diamonds</b></span></a> count as the same suit, <a><img src=\"Spade_suit_icon.png\"></a><a><span style=color:#292189;><b>\u00a0Spades</b></span></a> and <a><img src=\"Club_suit_icon.png\"></a><a><span style=color:#074540;><b>\u00a0Clubs</b></span></a> count as the same suit\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1131,7 +1131,7 @@ const jokersInfo = {
   },
   "Throwback": {
     "nr": "114\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/69/Throwback.png/revision/latest/scale-to-width-down/80?cb=20230925032923",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/69/Throwback.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X0.25</span>\u00a0<a>Mult</a></b> for each <a><span style=color:#ff8f00;><b>Blind</b></span></a> skipped this run <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1141,7 +1141,7 @@ const jokersInfo = {
   },
   "Hanging Chad": {
     "nr": "115\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/15/Hanging_Chad.png/revision/latest/scale-to-width-down/80?cb=20230925032056",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/1/15/Hanging_Chad.png/revision/latest",
     "effect": "<div>Retrigger <span style=color:#ff8f00;><b>first</b></span> played card used in scoring <span style=color:#ff8f00;><b>2</b></span> additional times\n</div>",
     "cost": "$4\n",
     "rarity": "Common\n",
@@ -1151,7 +1151,7 @@ const jokersInfo = {
   },
   "Rough Gem": {
     "nr": "116\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/27/Rough_Gem.png/revision/latest/scale-to-width-down/80?cb=20230925033732",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/27/Rough_Gem.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Diamond_suit_icon.png\"></a><a><span style=color:#f15a27;><b>\u00a0Diamond</b></span></a> suit earn <span style=color:#f5b244;><b>$1</b></span> when scored\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1161,7 +1161,7 @@ const jokersInfo = {
   },
   "Bloodstone": {
     "nr": "117\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/00/Bloodstone.png/revision/latest/scale-to-width-down/80?cb=20230925033748",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/0/00/Bloodstone.png/revision/latest",
     "effect": "<div><span style=color:#35bd86;><b>1 in 2</b></span> chance for played cards with <a><img src=\"Heart_suit_icon.png\"></a><a><span style=color:#f11b52;><b>\u00a0Heart</b></span></a> suit to give <b><span style=color: #ff4c40;>X1.5</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1171,7 +1171,7 @@ const jokersInfo = {
   },
   "Arrowhead": {
     "nr": "118\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d1/Arrowhead.png/revision/latest/scale-to-width-down/80?cb=20230925033802",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/d1/Arrowhead.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Spade_suit_icon.png\"></a><a><span style=color:#292189;><b>\u00a0Spade</b></span></a> suit give <span style=color:#0093ff;><b>+50</b></span>\u00a0<b>Chips</b> when scored\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1181,7 +1181,7 @@ const jokersInfo = {
   },
   "Onyx Agate": {
     "nr": "119\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/23/Onyx_Agate.png/revision/latest/scale-to-width-down/80?cb=20230925033817",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/23/Onyx_Agate.png/revision/latest",
     "effect": "<div>Played cards with <a><img src=\"Club_suit_icon.png\"></a><a><span style=color:#074540;><b>\u00a0Club</b></span></a> suit give <b><span style=color: #ff4c40;>+7</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1191,7 +1191,7 @@ const jokersInfo = {
   },
   "Glass Joker": {
     "nr": "120\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/df/Glass_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232553",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/df/Glass_Joker.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.75</span>\u00a0<a>Mult</a></b> for every <a><span style=color:#ff8f00;><b>Glass Card</b></span></a> that is destroyed <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1201,7 +1201,7 @@ const jokersInfo = {
   },
   "Showman": {
     "nr": "121\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/61/Showman.png/revision/latest/scale-to-width-down/80?cb=20230925030855",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/61/Showman.png/revision/latest",
     "effect": "<div><strong><span style=color:#ff8f00;><b>Joker</b></span></strong>, <a><span style=color:#7b559c;><b>Tarot</b></span></a>, <a><span style=color:#00a8ca;><b>Planet</b></span></a>, and <a><span style=color:#2e76fd;><b>Spectral</b></span></a> cards may appear multiple times\n</div>",
     "cost": "$5\n",
     "rarity": "Uncommon\n",
@@ -1211,7 +1211,7 @@ const jokersInfo = {
   },
   "Flower Pot": {
     "nr": "122\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/cc/Flower_Pot.png/revision/latest/scale-to-width-down/80?cb=20230925031233",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/cc/Flower_Pot.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> if poker hand contains a <a><img src=\"Diamond_suit_icon.png\"></a><a><span style=color:#f15a27;><b>\u00a0Diamond</b></span></a> card, <a><img src=\"Club_suit_icon.png\"></a><a><span style=color:#074540;><b>\u00a0Club</b></span></a> card, <a><img src=\"Heart_suit_icon.png\"></a><a><span style=color:#f11b52;><b>\u00a0Heart</b></span></a> card, and <a><img src=\"Spade_suit_icon.png\"></a><a><span style=color:#292189;><b>\u00a0Spade</b></span></a> card\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1221,7 +1221,7 @@ const jokersInfo = {
   },
   "Blueprint": {
     "nr": "123\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/98/Blueprint.png/revision/latest/scale-to-width-down/80?cb=20240320232406",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/98/Blueprint.png/revision/latest",
     "effect": "<div>Copies ability of <strong><span style=color:#ff8f00;><b>Joker</b></span></strong> to the right\n</div>",
     "cost": "$10\n",
     "rarity": "Rare\n",
@@ -1231,7 +1231,7 @@ const jokersInfo = {
   },
   "Wee Joker": {
     "nr": "124\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/2b/Wee_Joker.png/revision/latest/scale-to-width-down/80?cb=20240307061737",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/2b/Wee_Joker.png/revision/latest",
     "effect": "<div>This Joker gains <span style=color:#0093ff;><b>+8</b></span>\u00a0<b>Chips</b> when each played <span style=color:#ff8f00;><b>2</b></span> is scored <br> <span style=color:#b1b1b1;><b>(Currently +0 Chips)</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1241,7 +1241,7 @@ const jokersInfo = {
   },
   "Merry Andy": {
     "nr": "125\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e6/Merry_Andy.png/revision/latest/scale-to-width-down/80?cb=20230925005344",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e6/Merry_Andy.png/revision/latest",
     "effect": "<div><span style=color:#ff4c40;><b>+3</b></span> discards each round, <br><span style=color:#ff4c40;><b>-1</b></span> hand size\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1251,7 +1251,7 @@ const jokersInfo = {
   },
   "Oops! All 6s": {
     "nr": "126\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/25/Oops%21_All_6s.png/revision/latest/scale-to-width-down/80?cb=20240429132959",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/2/25/Oops%21_All_6s.png/revision/latest",
     "effect": "<div>Doubles all <span style=color:#ff8f00;><b>listed</b></span> <span style=color:#35bd86;><b>probabilities</b></span> <br> <span style=color:#b1b1b1;><b>(ex: <span style=color:#35bd86;><b>1 in 3</b></span> -> <span style=color:#35bd86;><b>2 in 3</b></span>)</b></span>\n</div>",
     "cost": "$4\n",
     "rarity": "Uncommon\n",
@@ -1261,7 +1261,7 @@ const jokersInfo = {
   },
   "The Idol": {
     "nr": "127\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8f/The_Idol.png/revision/latest/scale-to-width-down/80?cb=20230925033100",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8f/The_Idol.png/revision/latest",
     "effect": "<div>Each played [rank] of [suit] gives <b><span style=color: #ff4c40;>X2</span>\u00a0<a>Mult</a></b> when scored<br><small>Card changes every round<small>\n</small></small></div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1271,7 +1271,7 @@ const jokersInfo = {
   },
   "Seeing Double": {
     "nr": "128\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a1/Seeing_Double.png/revision/latest/scale-to-width-down/80?cb=20230925021944",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a1/Seeing_Double.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X2</span>\u00a0<a>Mult</a></b> if played hand has a scoring Club card and a scoring card of any other suit\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1281,7 +1281,7 @@ const jokersInfo = {
   },
   "Matador": {
     "nr": "129\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ec/Matador.png/revision/latest/scale-to-width-down/80?cb=20230925030641",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ec/Matador.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$8</b></span> if played hand triggers the <span style=color:#ff8f00;><b>Boss Blind</b></span> ability\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1291,7 +1291,7 @@ const jokersInfo = {
   },
   "Hit the Road": {
     "nr": "130\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4b/Hit_the_Road.png/revision/latest/scale-to-width-down/80?cb=20230925031040",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/4/4b/Hit_the_Road.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X0.5</span>\u00a0<a>Mult</a></b> for every <span style=color:#ff8f00;><b>Jack</b></span> discarded this round <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1301,7 +1301,7 @@ const jokersInfo = {
   },
   "The Duo": {
     "nr": "131\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fb/The_Duo.png/revision/latest/scale-to-width-down/80?cb=20230925022047",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/f/fb/The_Duo.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>x2</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Pair</b></span></a>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1311,7 +1311,7 @@ const jokersInfo = {
   },
   "The Trio": {
     "nr": "132\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/81/The_Trio.png/revision/latest/scale-to-width-down/80?cb=20230925022247",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/81/The_Trio.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Three of a Kind</b></span></a>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1321,7 +1321,7 @@ const jokersInfo = {
   },
   "The Family": {
     "nr": "133\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/ae/The_Family.png/revision/latest/scale-to-width-down/80?cb=20230925022326",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/ae/The_Family.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X4</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Four of a Kind</b></span></a>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1331,7 +1331,7 @@ const jokersInfo = {
   },
   "The Order": {
     "nr": "134\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/59/The_Order.png/revision/latest/scale-to-width-down/80?cb=20230925030429",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/59/The_Order.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>X3</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Straight</b></span></a>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1341,7 +1341,7 @@ const jokersInfo = {
   },
   "The Tribe": {
     "nr": "135\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9a/The_Tribe.png/revision/latest/scale-to-width-down/80?cb=20230925025820",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9a/The_Tribe.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>x2</span>\u00a0<a>Mult</a></b> if played hand contains a <a><span style=color:#ff8f00;><b>Flush</b></span></a>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1351,7 +1351,7 @@ const jokersInfo = {
   },
   "Stuntman": {
     "nr": "136\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9b/Stuntman.png/revision/latest/scale-to-width-down/80?cb=20230925032010",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9b/Stuntman.png/revision/latest",
     "effect": "<div><span style=color:#0093ff;><b>+250</b></span>\u00a0<b>Chips</b>,<br><span style=color:#ff8f00;><b>-2</b></span> hand size\n</div>",
     "cost": "$7\n",
     "rarity": "Rare\n",
@@ -1361,7 +1361,7 @@ const jokersInfo = {
   },
   "Invisible Joker": {
     "nr": "137\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a6/Invisible_Joker.png/revision/latest/scale-to-width-down/80?cb=20240320232406",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/a6/Invisible_Joker.png/revision/latest",
     "effect": "<div>After <span style=color:#ff8f00;><b>2</b></span> rounds, sell this card to <span style=color:#ff8f00;><b>Duplicate</b></span> a random Joker <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#ff8f00;><b>0</b></span>/2)</b></span> <br> <span style=color:#b1b1b1;><b>(Removes <span style=color:#2e76fd;><b>Negative</b></span> from copy)</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Rare\n",
@@ -1371,7 +1371,7 @@ const jokersInfo = {
   },
   "Brainstorm": {
     "nr": "138\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/84/Brainstorm.png/revision/latest/scale-to-width-down/80?cb=20230925033425",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/84/Brainstorm.png/revision/latest",
     "effect": "<div>Copies the ability of leftmost <strong><span style=color:#ff8f00;><b>Joker</b></span></strong>\n</div>",
     "cost": "$10\n",
     "rarity": "Rare\n",
@@ -1381,7 +1381,7 @@ const jokersInfo = {
   },
   "Satellite": {
     "nr": "139\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/5a/Satellite.png/revision/latest/scale-to-width-down/80?cb=20230925033526",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/5a/Satellite.png/revision/latest",
     "effect": "<div>Earn <span style=color:#f5b244;><b>$1</b></span> at end of round per unique <span style=color:#009dff;><b>Planet</b></span> card used this run\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1391,7 +1391,7 @@ const jokersInfo = {
   },
   "Shoot the Moon": {
     "nr": "140\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/57/Shoot_the_Moon.png/revision/latest/scale-to-width-down/80?cb=20240502123936",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/5/57/Shoot_the_Moon.png/revision/latest",
     "effect": "<div>Each <span style=color:#ff8f00;><b>Queen</b></span> held in hand gives <b><span style=color: #ff4c40;>+13</span>\u00a0<a>Mult</a></b>\n</div>",
     "cost": "$5\n",
     "rarity": "Common\n",
@@ -1401,7 +1401,7 @@ const jokersInfo = {
   },
   "Driver's License": {
     "nr": "141\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e0/Driver%27s_License.png/revision/latest/scale-to-width-down/80?cb=20240418121827",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e0/Driver%27s_License.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>x3</span>\u00a0<a>Mult</a></b> if you have at least <span style=color:#ff8f00;><b>16</b></span> Enhanced cards in your full deck <br> <span style=color:#b1b1b1;><b>(Currently <span style=color:#ff8f00;><b>0</b></span>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Rare\n",
@@ -1411,7 +1411,7 @@ const jokersInfo = {
   },
   "Cartomancer": {
     "nr": "142\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/94/Cartomancer.png/revision/latest/scale-to-width-down/80?cb=20230925021215",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/94/Cartomancer.png/revision/latest",
     "effect": "<div>Create a <a><span style=color:#7b559c;><b>Tarot</b></span></a> card when <a><span style=color:#ff8f00;><b>Blind</b></span></a> is selected <br> <span style=color:#b1b1b1;><b>(Must have room)</b></span>\n</div>",
     "cost": "$6\n",
     "rarity": "Uncommon\n",
@@ -1421,7 +1421,7 @@ const jokersInfo = {
   },
   "Astronomer": {
     "nr": "143\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/dd/Astronomer.png/revision/latest/scale-to-width-down/80?cb=20230925032417",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/d/dd/Astronomer.png/revision/latest",
     "effect": "<div>All <span style=color:#009dff;><b>Planet</b></span> cards and <span style=color:#009dff;><b>Celestial Packs</b></span> in the shop are <span style=color:#ff8f00;><b>free</b></span>\n</div>",
     "cost": "$8\n",
     "rarity": "Uncommon\n",
@@ -1431,7 +1431,7 @@ const jokersInfo = {
   },
   "Burnt Joker": {
     "nr": "144\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c4/Burnt_Joker.png/revision/latest/scale-to-width-down/80?cb=20230925032452",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/c/c4/Burnt_Joker.png/revision/latest",
     "effect": "<div>Upgrade the level of the first <span style=color:#ff8f00;><b>discarded</b></span> poker hand each round\n</div>",
     "cost": "$6\n",
     "rarity": "Rare\n",
@@ -1441,7 +1441,7 @@ const jokersInfo = {
   },
   "Bootstraps": {
     "nr": "145\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e3/Bootstraps.png/revision/latest/scale-to-width-down/80?cb=20230925034244",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/e/e3/Bootstraps.png/revision/latest",
     "effect": "<div><b><span style=color: #ff4c40;>+2</span>\u00a0<a>Mult</a></b> for every <span style=color:#f5b244;><b>$5</b></span> you have <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>+0</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "$7\n",
     "rarity": "Uncommon\n",
@@ -1451,7 +1451,7 @@ const jokersInfo = {
   },
   "Canio": {
     "nr": "146\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/75/Canio.png/revision/latest/scale-to-width-down/80?cb=20240406043120",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/7/75/Canio.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b> when a <span style=color:#ff8f00;><b>face</b></span> card is destroyed <br> <span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "N/A\n",
     "rarity": "Legendary\n",
@@ -1461,7 +1461,7 @@ const jokersInfo = {
   },
   "Triboulet": {
     "nr": "147\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9f/Triboulet.png/revision/latest/scale-to-width-down/80?cb=20240406043149",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/9/9f/Triboulet.png/revision/latest",
     "effect": "<div>Played Kings and Queens each give <b><span style=color: #ff4c40;>x2</span>\u00a0<a>Mult</a></b> when scored\n</div>",
     "cost": "N/A\n",
     "rarity": "Legendary\n",
@@ -1471,7 +1471,7 @@ const jokersInfo = {
   },
   "Yorick": {
     "nr": "148\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/ad/Yorick.png/revision/latest/scale-to-width-down/80?cb=20240406043153",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/a/ad/Yorick.png/revision/latest",
     "effect": "<div>This Joker gains <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b> every <span style=color:#ff8f00;><b>23</b></span> <span style=color:#b1b1b1;><b>[23]</b></span> cards discarded<br><span style=color:#b1b1b1;><b>(Currently <b><span style=color: #ff4c40;>X1</span>\u00a0<a>Mult</a></b>)</b></span>\n</div>",
     "cost": "N/A\n",
     "rarity": "Legendary\n",
@@ -1481,7 +1481,7 @@ const jokersInfo = {
   },
   "Chicot": {
     "nr": "149\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8e/Chicot.png/revision/latest/scale-to-width-down/80?cb=20240406042633",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/8/8e/Chicot.png/revision/latest",
     "effect": "<div>Disables effect of every <a>Boss Blind</a>\n</div>",
     "cost": "N/A\n",
     "rarity": "Legendary\n",
@@ -1491,7 +1491,7 @@ const jokersInfo = {
   },
   "Perkeo": {
     "nr": "150\n",
-    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/60/Perkeo.png/revision/latest/scale-to-width-down/80?cb=20240406043156",
+    "img": "https://static.wikia.nocookie.net/balatrogame/images/6/60/Perkeo.png/revision/latest",
     "effect": "<div>Creates a <a><span style=color:#2e76fd;><b>Negative</b></span></a> copy of <span style=color:#ff8f00;><b>1</b></span> random <a><span style=color:#ff8f00;><b>consumable</b></span></a> card in your possession at the end of the <a><span style=color:#ff8f00;><b>shop</b></span></a>\n</div>",
     "cost": "N/A\n",
     "rarity": "Legendary\n",
