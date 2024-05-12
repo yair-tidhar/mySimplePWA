@@ -1,0 +1,64 @@
+/* hand */
+.hand{
+    display: flex;
+    position: relative;
+    justify-content: evenly-spaced;
+    align-items: center;
+    border: 2px solid black;
+    height: 15dvh;
+    width: 90dvw;
+    margin-bottom: 1em;
+}
+
+.handsize{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    right: 0;
+    bottom: -0.5em;
+}
+
+/* card positioning*/
+.card, .card img{
+    position: relative;
+    height: 100%;
+    width: auto;
+    max-width: 150%;
+    object-fit: scale-down;
+    min-width: 0;
+    min-height: 0;
+    transition: transform 0.25s;
+}
+
+/* img filter effects for cards*/
+/* has .invert and .cross*/
+.card{
+    img{
+        --invert: 0%;
+        --grayscale: 0%;
+        --brightness: 1;
+    }
+    &.invert img{
+        --invert: 100%;
+    }
+    &.cross img{
+        --grayscale: 100%;
+        --brightness: 0.7;
+    }
+    &.cross:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "\274c";
+        font-size: 100%;
+        color: red;
+            text-align: center;
+    }
+    img{
+        filter: invert(var(--invert)) grayscale(var(--grayscale)) brightness(var(--brightness));
+    }
+}
+
+

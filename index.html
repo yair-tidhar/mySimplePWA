@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>My Title</title>
+    <meta name='viewport' content="width=device-width, height=device-height, initial-scale=1"/>
+    <script src="js/utils.js"></script>
+    <script src="js/animating.js"></script>
+    <script src="js/dragging.js"></script>
+    <script src="js/uiapi.js"></script>
+    <link rel="stylesheet" href="styles/cardstyle.css">
+    <link rel="stylesheet" href="styles/basestyle.css">
+    <link rel="stylesheet" href="styles/cardpokes.css">
+</head>
+<style>
+		body{
+			font-size: 3dvh;
+			text-align: center;
+		}
+
+		#topinfo{
+		    display: grid;
+		    grid-gap: 5%;
+            width: 40dvw;
+            height: 100%;
+		}
+        #tarrots{
+            width: 40dvw;
+        }
+
+        #round-handType{
+            display:block;
+            text-align:center;
+            margin:auto;
+            font-size:1.25em;
+            #round-field:has(.card) &{
+                display: none;
+            }
+        }
+
+</style>
+
+
+<body>
+<div class="centeredFlex" style="margin-bottom:1em">
+    <div id="topinfo">
+        <div class="numinfo" style="grid-area:1/1/2/3; color:gold;"> 105$ </div>
+        <div class="numinfo" style="grid-area:2/1/3/2; color:blue;">4 H</div>
+        <div class="numinfo" style="grid-area:2/2/3/3; color:red;">3 D</div>
+        <div class="numinfo" style="grid-area:3/1/3/2;">ante 2/8</div>
+        <button onclick="alert('not yet inmplemented, sorry');" class="numinfo" style="grid-area:3/2/3/3; background-color:#505050;">Info</button>
+    </div>
+
+    <div id="tarrots" class="hand" card-exp="1" style="margin-bottom: 0;">
+        <div class="card" onclick="clickCard(event);">
+            <img src="https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png">
+            <button onclick="alert('selling');" class="card-poke-1">Sell (7)</button>
+            <button onclick="alert('using');" class="card-poke-2">Use</button>
+            <div class="tooltip">Hello There</div>
+        </div>
+        <span class="handsize">2/3</span>
+    </div>
+
+
+</div>
+
+<div id="jockers" class="hand" card-exp="5" style="margin-top: 1.5em;">
+    <span class="handsize">5/8</span>
+</div>
+
+<div id="shop" class="dialog hidden">
+    <h1 style="color:gold; margin:0;">Shop</h1>
+    <hr style="border: 3px solid black;">
+    <div class="hand" card-exp="3"></div>
+    <div class="centeredFlex">
+        <button class="numinfo" style="font-size:30px; background-color:red;">Next</button>
+        <button class="numinfo" style="font-size:30px; background-color:blue;">Refresh</button>
+    </div>
+    <div class="centeredFlex" style="width:100%">
+        <div class="hand" card-exp="2" style="width:50%; margin-right:10px;"></div>
+        <div class="hand" card-exp="3" ></div>
+    </div>
+</div>
+
+<div id="rounddiv" style="display:block;">
+    <span class="numinfo">Score: 200 / 300</span>
+    <div class="centeredFlex numinfo" style="justify-content:evenly-spaced; margin-top: 5px;">
+        <span class="numinfo" style="background-color:red; width:20dvw">300</span>
+        x
+        <span class="numinfo" style="background-color:blue; width:20dvw">200</span>
+        =
+        <span class="numinfo" style="background-color:#606060; width:30dvw">???</span>
+    </div>
+    <br>
+
+    <div class="hand" id="round-field" card-exp="0">
+        <div class="hidden" id="round-handType" style="">
+            Hand Type:  <span>Straight House</span>
+            <br>
+            lvl: <span>5</span>
+       </div>
+    </div>
+    <div class="hand" id="round-playerHand" card-exp="8" style="margin:bottom: 0px;">
+        <span class="handsize">8/8</span>
+    </div>
+    <div style="margin-bottom: 2px;">
+        <button>Sort Rank</button>
+        <button>Sort Suit</button>
+    </div>
+    <button onclick="playHand();">Send It!</button>
+
+</div>
+
+</body>
+
+
+
+<script>
+    function populate(){
+        let __j = 2;
+        for(hand of document.getElementsByClassName("hand")){
+            const cardHTMLStr = `<div class="card" onclick="clickCard(event);"><img src="imgs/cards/${__j}_of_diamonds.svg"></div>`
+            const cc = hand.getAttribute("card-exp");
+            for(let i=0; i<cc; i++){
+                hand.innerHTML += cardHTMLStr;
+            }
+            __j++;
+        };
+    }
+    populate();
+</script>
+</html>

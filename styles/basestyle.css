@@ -1,0 +1,30 @@
+
+/* numbers with background*/
+.numinfo{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1% 1%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+/* useful stuff:*/
+.hidden{
+    display: none;
+}
+
+.centeredFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dialog{
+    background-color: #404040;
+    border:4px solid black;
+    border-radius: 20px;
+}
+
+
