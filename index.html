@@ -105,6 +105,7 @@
     <div style="margin-bottom: 2px;">
         <button>Sort Rank</button>
         <button>Sort Suit</button>
+        <button onclick="populateJockerHand();">RandomJokers</button>
     </div>
     <button onclick="playHand();">Send It!</button>
 
@@ -129,19 +130,29 @@
         `;
         return ret;
     }
+    function populateJockerHand(){
+        const hand = document.getElementById("jockers");
+        const cc = hand.getAttribute("card-exp");
+        for(pre of [...hand.getElementsByClassName("card")]){
+            pre.remove();
+        }
+        for(let i=0; i<cc; i++){
+            hand.innerHTML += randomJocker();
+        }
+    }
 
     function populate(){
         let __j = 2;
         for(hand of document.getElementsByClassName("hand")){
+            if(hand.id === "jockers") continue;
             const cardHTMLStr = `<div class="card" onclick="clickCard(event);"><img src="imgs/cards/${__j}_of_diamonds.svg"></div>`
             const cc = hand.getAttribute("card-exp");
             for(let i=0; i<cc; i++){
-                if( hand.id == "jockers")
-                    cardHTMLStr = randomJocker();
                 hand.innerHTML += cardHTMLStr;
             }
             __j++;
         };
+        populateJockerHand();
     }
     populate();
 </script>
