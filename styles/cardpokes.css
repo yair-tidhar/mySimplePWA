@@ -46,6 +46,7 @@
 .tooltip{
     border: 2px solid black;
     background-color: #909090;
+    font-size: 0.75em;
     visibility: hidden;
     .card:hover &, .card.touched &{
         visibility: visible;

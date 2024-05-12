@@ -2,6 +2,7 @@
 <head>
     <title>My Title</title>
     <meta name='viewport' content="width=device-width, height=device-height, initial-scale=1"/>
+    <script type="text/javascript" src="jsons/jockersInfo.json"></script>
     <script src="js/utils.js"></script>
     <script src="js/animating.js"></script>
     <script src="js/dragging.js"></script>
@@ -112,14 +113,31 @@
 </body>
 
 
-
 <script>
+    function randomJocker(){
+        const jokerNames = Object.keys(jokersInfo);
+        const rndIndx = randomInt(jokerNames.length);
+        const jok = jokersInfo[jokerNames[rndIndx]];
+        console.log("random is", rndIndx);
+        const ret = `
+            <div class="card" onclick="clickCard(event);">
+                <img src="${jok.img}">
+                <div class="tooltip">
+                    ${jok.effect}
+                </div>
+            </div>
+        `;
+        return ret;
+    }
+
     function populate(){
         let __j = 2;
         for(hand of document.getElementsByClassName("hand")){
             const cardHTMLStr = `<div class="card" onclick="clickCard(event);"><img src="imgs/cards/${__j}_of_diamonds.svg"></div>`
             const cc = hand.getAttribute("card-exp");
             for(let i=0; i<cc; i++){
+                if( hand.id == "jockers")
+                    cardHTMLStr = randomJocker();
                 hand.innerHTML += cardHTMLStr;
             }
             __j++;

@@ -12,3 +12,7 @@ function insertChild(parent, elm, index){
         parent.insertBefore(elm, parent.children[index]);
     return;
 }
+
+function randomInt(size){
+    return Math.floor(Math.random()*size);
+}
