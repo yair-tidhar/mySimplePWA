@@ -1,4 +1,4 @@
-{
+const jokersInfo = {
   "Joker": {
     "nr": "1\n",
     "img": "https://static.wikia.nocookie.net/balatrogame/images/e/ef/Joker.png",
